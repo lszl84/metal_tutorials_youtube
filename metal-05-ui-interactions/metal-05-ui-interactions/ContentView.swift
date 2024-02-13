@@ -8,16 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var rotation: Float = 0.0
+    
     var body: some View {
-        ZStack {
-            Color.black
-                .edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer()
                 MetalView().aspectRatio(1, contentMode: .fit)
                 Spacer()
             }
-        }
     }
 }
 
