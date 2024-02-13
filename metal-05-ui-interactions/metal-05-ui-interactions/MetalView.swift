@@ -12,6 +12,8 @@ struct MetalView {
     
     @State private var renderer: MetalRenderer = MetalRenderer()
     
+    @Binding var rotation: Float
+    
     private func makeMetalView() -> MTKView {
         let view = MTKView()
         
@@ -22,6 +24,10 @@ struct MetalView {
         
         return view
     }
+    
+    private func updateMetalView() {
+        renderer.updateRotation(angle: rotation)
+    }
 }
 #if os(iOS)
 extension MetalView: UIViewRepresentable {
@@ -31,6 +37,7 @@ extension MetalView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
+        updateMetalView()
     }
 }
 #elseif os(macOS)
@@ -40,6 +47,7 @@ extension MetalView: NSViewRepresentable {
     }
     
     func updateNSView(_ nsView: NSViewType, context: Context) {
+        updateMetalView()
     }
 }
 #endif

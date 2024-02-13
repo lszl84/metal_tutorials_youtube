@@ -18,6 +18,7 @@
 		A351E8812B7BEDA800696547 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8802B7BEDA800696547 /* Vertex.swift */; };
 		A351E8832B7BEDB200696547 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A351E8822B7BEDB200696547 /* Shaders.metal */; };
 		A351E8852B7BEDD600696547 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8842B7BEDD600696547 /* MetalView.swift */; };
+		A351E8872B7BF95300696547 /* Rotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8862B7BF95300696547 /* Rotations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A351E8802B7BEDA800696547 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		A351E8822B7BEDB200696547 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		A351E8842B7BEDD600696547 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		A351E8862B7BF95300696547 /* Rotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				A351E8532B7BED8B00696547 /* metal_05_ui_interactionsApp.swift */,
 				A351E8552B7BED8B00696547 /* ContentView.swift */,
+				A351E8862B7BF95300696547 /* Rotations.swift */,
 				A351E8842B7BEDD600696547 /* MetalView.swift */,
 				A351E87E2B7BED9C00696547 /* MetalRenderer.swift */,
 				A351E8802B7BEDA800696547 /* Vertex.swift */,
@@ -274,6 +277,7 @@
 				A351E8852B7BEDD600696547 /* MetalView.swift in Sources */,
 				A351E8562B7BED8B00696547 /* ContentView.swift in Sources */,
 				A351E8812B7BEDA800696547 /* Vertex.swift in Sources */,
+				A351E8872B7BF95300696547 /* Rotations.swift in Sources */,
 				A351E8542B7BED8B00696547 /* metal_05_ui_interactionsApp.swift in Sources */,
 				A351E87F2B7BED9C00696547 /* MetalRenderer.swift in Sources */,
 				A351E8832B7BEDB200696547 /* Shaders.metal in Sources */,

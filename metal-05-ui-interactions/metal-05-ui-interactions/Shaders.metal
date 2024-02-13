@@ -11,9 +11,10 @@ struct FragmentInput {
     float4 color;
 };
 
-vertex FragmentInput vertex_main(Vertex v [[stage_in]]) {
+vertex FragmentInput vertex_main(Vertex v [[stage_in]],
+                                 constant float4x4 &matrix [[buffer(1)]]) {
     return {
-        .position { v.position },
+        .position { matrix * v.position },
         .color { v.color }
     };
 }
