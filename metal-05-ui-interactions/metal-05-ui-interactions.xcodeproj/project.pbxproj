@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A351E8542B7BED8B00696547 /* metal_05_ui_interactionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8532B7BED8B00696547 /* metal_05_ui_interactionsApp.swift */; };
+		A351E8562B7BED8B00696547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8552B7BED8B00696547 /* ContentView.swift */; };
+		A351E8582B7BED8C00696547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A351E8572B7BED8C00696547 /* Assets.xcassets */; };
+		A351E85C2B7BED8C00696547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A351E85B2B7BED8C00696547 /* Preview Assets.xcassets */; };
+		A351E8662B7BED8C00696547 /* metal_05_ui_interactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8652B7BED8C00696547 /* metal_05_ui_interactionsTests.swift */; };
+		A351E8702B7BED8C00696547 /* metal_05_ui_interactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E86F2B7BED8C00696547 /* metal_05_ui_interactionsUITests.swift */; };
+		A351E8722B7BED8C00696547 /* metal_05_ui_interactionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8712B7BED8C00696547 /* metal_05_ui_interactionsUITestsLaunchTests.swift */; };
+		A351E87F2B7BED9C00696547 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E87E2B7BED9C00696547 /* MetalRenderer.swift */; };
+		A351E8812B7BEDA800696547 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8802B7BEDA800696547 /* Vertex.swift */; };
+		A351E8832B7BEDB200696547 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A351E8822B7BEDB200696547 /* Shaders.metal */; };
+		A351E8852B7BEDD600696547 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351E8842B7BEDD600696547 /* MetalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A351E8622B7BED8C00696547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A351E8482B7BED8B00696547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A351E84F2B7BED8B00696547;
+			remoteInfo = "metal-05-ui-interactions";
+		};
+		A351E86C2B7BED8C00696547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A351E8482B7BED8B00696547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A351E84F2B7BED8B00696547;
+			remoteInfo = "metal-05-ui-interactions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A351E8502B7BED8B00696547 /* metal-05-ui-interactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "metal-05-ui-interactions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A351E8532B7BED8B00696547 /* metal_05_ui_interactionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_05_ui_interactionsApp.swift; sourceTree = "<group>"; };
+		A351E8552B7BED8B00696547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A351E8572B7BED8C00696547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A351E8592B7BED8C00696547 /* metal_05_ui_interactions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = metal_05_ui_interactions.entitlements; sourceTree = "<group>"; };
+		A351E85B2B7BED8C00696547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A351E8612B7BED8C00696547 /* metal-05-ui-interactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metal-05-ui-interactionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A351E8652B7BED8C00696547 /* metal_05_ui_interactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_05_ui_interactionsTests.swift; sourceTree = "<group>"; };
+		A351E86B2B7BED8C00696547 /* metal-05-ui-interactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metal-05-ui-interactionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A351E86F2B7BED8C00696547 /* metal_05_ui_interactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_05_ui_interactionsUITests.swift; sourceTree = "<group>"; };
+		A351E8712B7BED8C00696547 /* metal_05_ui_interactionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_05_ui_interactionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A351E87E2B7BED9C00696547 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		A351E8802B7BEDA800696547 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		A351E8822B7BEDB200696547 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A351E8842B7BEDD600696547 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A351E84D2B7BED8B00696547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E85E2B7BED8C00696547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E8682B7BED8C00696547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A351E8472B7BED8B00696547 = {
+			isa = PBXGroup;
+			children = (
+				A351E8522B7BED8B00696547 /* metal-05-ui-interactions */,
+				A351E8642B7BED8C00696547 /* metal-05-ui-interactionsTests */,
+				A351E86E2B7BED8C00696547 /* metal-05-ui-interactionsUITests */,
+				A351E8512B7BED8B00696547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A351E8512B7BED8B00696547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A351E8502B7BED8B00696547 /* metal-05-ui-interactions.app */,
+				A351E8612B7BED8C00696547 /* metal-05-ui-interactionsTests.xctest */,
+				A351E86B2B7BED8C00696547 /* metal-05-ui-interactionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A351E8522B7BED8B00696547 /* metal-05-ui-interactions */ = {
+			isa = PBXGroup;
+			children = (
+				A351E8532B7BED8B00696547 /* metal_05_ui_interactionsApp.swift */,
+				A351E8552B7BED8B00696547 /* ContentView.swift */,
+				A351E8842B7BEDD600696547 /* MetalView.swift */,
+				A351E87E2B7BED9C00696547 /* MetalRenderer.swift */,
+				A351E8802B7BEDA800696547 /* Vertex.swift */,
+				A351E8822B7BEDB200696547 /* Shaders.metal */,
+				A351E8572B7BED8C00696547 /* Assets.xcassets */,
+				A351E8592B7BED8C00696547 /* metal_05_ui_interactions.entitlements */,
+				A351E85A2B7BED8C00696547 /* Preview Content */,
+			);
+			path = "metal-05-ui-interactions";
+			sourceTree = "<group>";
+		};
+		A351E85A2B7BED8C00696547 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A351E85B2B7BED8C00696547 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A351E8642B7BED8C00696547 /* metal-05-ui-interactionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A351E8652B7BED8C00696547 /* metal_05_ui_interactionsTests.swift */,
+			);
+			path = "metal-05-ui-interactionsTests";
+			sourceTree = "<group>";
+		};
+		A351E86E2B7BED8C00696547 /* metal-05-ui-interactionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A351E86F2B7BED8C00696547 /* metal_05_ui_interactionsUITests.swift */,
+				A351E8712B7BED8C00696547 /* metal_05_ui_interactionsUITestsLaunchTests.swift */,
+			);
+			path = "metal-05-ui-interactionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A351E84F2B7BED8B00696547 /* metal-05-ui-interactions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A351E8752B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactions" */;
+			buildPhases = (
+				A351E84C2B7BED8B00696547 /* Sources */,
+				A351E84D2B7BED8B00696547 /* Frameworks */,
+				A351E84E2B7BED8B00696547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "metal-05-ui-interactions";
+			productName = "metal-05-ui-interactions";
+			productReference = A351E8502B7BED8B00696547 /* metal-05-ui-interactions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A351E8602B7BED8C00696547 /* metal-05-ui-interactionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A351E8782B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactionsTests" */;
+			buildPhases = (
+				A351E85D2B7BED8C00696547 /* Sources */,
+				A351E85E2B7BED8C00696547 /* Frameworks */,
+				A351E85F2B7BED8C00696547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A351E8632B7BED8C00696547 /* PBXTargetDependency */,
+			);
+			name = "metal-05-ui-interactionsTests";
+			productName = "metal-05-ui-interactionsTests";
+			productReference = A351E8612B7BED8C00696547 /* metal-05-ui-interactionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A351E86A2B7BED8C00696547 /* metal-05-ui-interactionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A351E87B2B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactionsUITests" */;
+			buildPhases = (
+				A351E8672B7BED8C00696547 /* Sources */,
+				A351E8682B7BED8C00696547 /* Frameworks */,
+				A351E8692B7BED8C00696547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A351E86D2B7BED8C00696547 /* PBXTargetDependency */,
+			);
+			name = "metal-05-ui-interactionsUITests";
+			productName = "metal-05-ui-interactionsUITests";
+			productReference = A351E86B2B7BED8C00696547 /* metal-05-ui-interactionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A351E8482B7BED8B00696547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A351E84F2B7BED8B00696547 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A351E8602B7BED8C00696547 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A351E84F2B7BED8B00696547;
+					};
+					A351E86A2B7BED8C00696547 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A351E84F2B7BED8B00696547;
+					};
+				};
+			};
+			buildConfigurationList = A351E84B2B7BED8B00696547 /* Build configuration list for PBXProject "metal-05-ui-interactions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A351E8472B7BED8B00696547;
+			productRefGroup = A351E8512B7BED8B00696547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A351E84F2B7BED8B00696547 /* metal-05-ui-interactions */,
+				A351E8602B7BED8C00696547 /* metal-05-ui-interactionsTests */,
+				A351E86A2B7BED8C00696547 /* metal-05-ui-interactionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A351E84E2B7BED8B00696547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A351E85C2B7BED8C00696547 /* Preview Assets.xcassets in Resources */,
+				A351E8582B7BED8C00696547 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E85F2B7BED8C00696547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E8692B7BED8C00696547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A351E84C2B7BED8B00696547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A351E8852B7BEDD600696547 /* MetalView.swift in Sources */,
+				A351E8562B7BED8B00696547 /* ContentView.swift in Sources */,
+				A351E8812B7BEDA800696547 /* Vertex.swift in Sources */,
+				A351E8542B7BED8B00696547 /* metal_05_ui_interactionsApp.swift in Sources */,
+				A351E87F2B7BED9C00696547 /* MetalRenderer.swift in Sources */,
+				A351E8832B7BEDB200696547 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E85D2B7BED8C00696547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A351E8662B7BED8C00696547 /* metal_05_ui_interactionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A351E8672B7BED8C00696547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A351E8722B7BED8C00696547 /* metal_05_ui_interactionsUITestsLaunchTests.swift in Sources */,
+				A351E8702B7BED8C00696547 /* metal_05_ui_interactionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A351E8632B7BED8C00696547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A351E84F2B7BED8B00696547 /* metal-05-ui-interactions */;
+			targetProxy = A351E8622B7BED8C00696547 /* PBXContainerItemProxy */;
+		};
+		A351E86D2B7BED8C00696547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A351E84F2B7BED8B00696547 /* metal-05-ui-interactions */;
+			targetProxy = A351E86C2B7BED8C00696547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A351E8732B7BED8C00696547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A351E8742B7BED8C00696547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A351E8762B7BED8C00696547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "metal-05-ui-interactions/metal_05_ui_interactions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"metal-05-ui-interactions/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A351E8772B7BED8C00696547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "metal-05-ui-interactions/metal_05_ui_interactions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"metal-05-ui-interactions/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A351E8792B7BED8C00696547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metal-05-ui-interactions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/metal-05-ui-interactions";
+			};
+			name = Debug;
+		};
+		A351E87A2B7BED8C00696547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metal-05-ui-interactions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/metal-05-ui-interactions";
+			};
+			name = Release;
+		};
+		A351E87C2B7BED8C00696547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "metal-05-ui-interactions";
+			};
+			name = Debug;
+		};
+		A351E87D2B7BED8C00696547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmindscape.metal-05-ui-interactionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "metal-05-ui-interactions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A351E84B2B7BED8B00696547 /* Build configuration list for PBXProject "metal-05-ui-interactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A351E8732B7BED8C00696547 /* Debug */,
+				A351E8742B7BED8C00696547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A351E8752B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A351E8762B7BED8C00696547 /* Debug */,
+				A351E8772B7BED8C00696547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A351E8782B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A351E8792B7BED8C00696547 /* Debug */,
+				A351E87A2B7BED8C00696547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A351E87B2B7BED8C00696547 /* Build configuration list for PBXNativeTarget "metal-05-ui-interactionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A351E87C2B7BED8C00696547 /* Debug */,
+				A351E87D2B7BED8C00696547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A351E8482B7BED8B00696547 /* Project object */;
+}
