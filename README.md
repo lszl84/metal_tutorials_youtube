@@ -39,3 +39,7 @@ Connecting the UI to the MTKView with SwiftUI.
 [![Video](/output5.gif)](https://www.youtube.com/watch?v=KtxN7edF3aw)
 
 [https://www.youtube.com/watch?v=KtxN7edF3aw](https://www.youtube.com/watch?v=KtxN7edF3aw)
+
+---
+Check out the blog for more! [www.lukesdevtutorials.com](https://www.lukesdevtutorials.com)
+---
