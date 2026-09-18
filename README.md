@@ -43,3 +43,7 @@ Connecting the UI to the MTKView with SwiftUI.
 ---
 Check out the blog for more! [www.onlyfastcode.com](https://www.onlyfastcode.com)
 ---
+
+📖 Written tutorial: [Exploring Apple's Metal Framework: A Beginner's Guide](https://devmindscape.com/post/metal-intro/)
+
+📚 More C++ and wxWidgets tutorials: [devmindscape.com](https://devmindscape.com) · 💼 Available for contract work: [devmindscape.com/work](https://devmindscape.com/work/)
